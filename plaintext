@@ -1,0 +1,14 @@
+funny-video-bot/
+├── scrapers/
+│   └── tiktok_scraper.py
+├── filters/
+│   └── humor_detector.py
+├── pipeline/
+│   └── run_pipeline.py  <-- NEW
+├── downloads/
+│   ├── tiktok/
+│   └── filtered_funny/  <-- Only the funny videos
+├── config/
+│   └── secrets.env
+├── requirements.txt
+└── README.md
